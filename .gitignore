@@ -1,0 +1,21 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Secrets and Local Config
+.env
+.streamlit/config.toml
+
+# Local Agent Memory (Ignore if you want a fresh start for users)
+*_knowledge.json
+
+# Operating System Files
+.DS_Store
+Thumbs.db
